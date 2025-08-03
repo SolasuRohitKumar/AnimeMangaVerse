@@ -30,3 +30,37 @@ footer {
   text-align: center;
   margin-top: 3rem;
 }
+
+
+#popular-anime {
+  padding: 40px 20px;
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+}
+
+.anime-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.anime-card {
+  background: #2b2b2b;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.anime-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.anime-card p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #f2f2f2;
+}
