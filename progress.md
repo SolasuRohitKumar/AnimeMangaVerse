@@ -4,7 +4,7 @@
 |-----|------------------------------|-----------|-----------------------------------|
 | 1   | Project setup                 | ✅ Done   | init: project setup with landing page |
 | 2   | Add Featured Anime section    | ✅ Done   | feat: added featured anime cards  |
-| 3   | Add Featured Manga section    | ⬜ Pending | feat: added featured manga cards  |
+| 3   | Add Featured Manga section    | ✅ Done   | feat: added featured manga cards  |
 | 4   | Create and style footer       | ⬜ Pending | feat: added footer section         |
 | 5   | Make layout responsive        | ⬜ Pending | feat: responsive design added      |
 | 6   | Polish design and colors      | ⬜ Pending | style: improved colors and fonts   |
