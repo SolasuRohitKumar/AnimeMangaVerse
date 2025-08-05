@@ -99,3 +99,44 @@ footer {
   color: #ff6f61;
 }
 
+.anime-section {
+  padding: 40px;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+
+.anime-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.anime-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.anime-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.anime-card:hover {
+  transform: scale(1.05);
+}
+
+.anime-card img {
+  width: 100%;
+  height: auto;
+}
+
+.anime-card h3 {
+  padding: 10px;
+  font-size: 1.1em;
+}

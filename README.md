@@ -12,6 +12,7 @@ A beginner-friendly website to watch anime and read manga.
 - Featured Manga section ✅ *(Day 2)*
 - Explore by Genre section with icons ✅ *(Day 3)*
 - Responsive layout *(in progress)*
+- Anime cards section showcasing popular titles
 
 ---
 
