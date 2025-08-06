@@ -140,3 +140,41 @@ footer {
   padding: 10px;
   font-size: 1.1em;
 }
+
+.featured-manga {
+  padding: 2rem;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+}
+
+.manga-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.manga-card {
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+
+.manga-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.manga-card h3 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.manga-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}

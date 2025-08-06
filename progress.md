@@ -6,7 +6,7 @@
 | 2   | Add Top Picks (Featured Anime) section | ✅ Done   | feat: added top picks anime section  |
 | 3   | Add Explore by Genre section   | ✅ Done   | feat: added genre explore section     |
 | 4   | Add Popular Anime cards section| ✅ Done   | feat: added popular anime cards       |
-| 5   | Add Featured Manga section     | ⬜ Pending | feat: added featured manga section    |
+| 5   | Add Featured Manga section     | ✅ Done   | feat: added featured manga section    |
 | 6   | Create and style footer        | ⬜ Pending | feat: added footer section             |
 | 7   | Make layout responsive         | ⬜ Pending | feat: responsive design added          |
 | 8   | Polish design and colors       | ⬜ Pending | style: improved colors and fonts       |
