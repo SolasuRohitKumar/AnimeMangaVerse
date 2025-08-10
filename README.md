@@ -1,6 +1,6 @@
 # AnimeMangaVerse
 
-A beginner-friendly website to watch anime and read manga.
+A beginner-friendly website to watch anime and read manga..
 
 ---
 
