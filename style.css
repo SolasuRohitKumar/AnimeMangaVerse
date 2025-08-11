@@ -252,3 +252,39 @@ footer {
 .manga-card:hover {
   transform: scale(1.05);
 }
+
+/* Base grid and layout are already set, now add responsiveness */
+
+/* For tablets and smaller desktops */
+@media (max-width: 900px) {
+  .anime-grid, .anime-cards, .manga-cards, .genre-container {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .anime-grid, .anime-cards, .manga-cards, .genre-container {
+    grid-template-columns: 1fr; /* Single column */
+  }
+
+  .genre-card {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .featured-manga, .anime-section, section#Top-picks, .explore {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
