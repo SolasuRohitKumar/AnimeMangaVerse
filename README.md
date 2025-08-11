@@ -14,6 +14,9 @@ A beginner-friendly website to watch anime and read manga.
 - Anime cards section showcasing popular titles ✅ *(Day 4)*
 - Manga cards section showcasing popular titles ✅ *(Day 5)*
 - Footer section with links and social icons ✅ *(Day 6)*
+- Responsive layout ✅ *(Day 7)*
+- Polish design and colors ✅*(Day 8)*
+
 
 ---
 
@@ -33,8 +36,8 @@ Just open `index.html` in your browser — no setup required.
 | 4   | Popular Anime Cards (with hover effects)  | ✅ Done  |
 | 5   | Popular Manga Cards (with hover effects)  | ✅ Done  |
 | 6   | Create and style footer                   | ✅ Done  |
-| 7   | Responsive layout                         | In Progress |
-
+| 7   | Responsive layout                         | ✅ Done  |
+| 8   | Polish design and colors                  | ✅ Done  |
 ---
 
 ## 🚧 Upcoming Plans
