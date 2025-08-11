@@ -8,7 +8,7 @@
 | 4   | Add Popular Anime cards section| ✅ Done   | feat: added popular anime cards       |
 | 5   | Add Featured Manga section     | ✅ Done   | feat: added featured manga section    |
 | 6   | Create and style footer        | ✅ Done   | feat: added footer section             |
-| 7   | Make layout responsive         | ⬜ Pending | feat: responsive design added          |
+| 7   | Make layout responsive         | ✅ Done   | feat: responsive design added          |
 | 8   | Polish design and colors       | ⬜ Pending | style: improved colors and fonts       |
 | 9   | Add hover effects to cards     | ⬜ Pending | style: added hover effects to cards    |
 | 10  | Add genre tags on cards        | ⬜ Pending | feat: added genre badges               |

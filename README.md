@@ -33,6 +33,7 @@ Just open `index.html` in your browser — no setup required.
 | 4   | Popular Anime Cards (with hover effects)  | ✅ Done  |
 | 5   | Popular Manga Cards (with hover effects)  | ✅ Done  |
 | 6   | Create and style footer                   | ✅ Done  |
+| 7   | Responsive layout                         | In Progress |
 
 ---
 
