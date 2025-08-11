@@ -1,6 +1,6 @@
 # AnimeMangaVerse
 
-A beginner-friendly website to watch anime and read manga..
+A beginner-friendly website to watch anime and read manga.
 
 ---
 
@@ -13,6 +13,7 @@ A beginner-friendly website to watch anime and read manga..
 - Responsive layout *(in progress)*
 - Anime cards section showcasing popular titles ✅ *(Day 4)*
 - Manga cards section showcasing popular titles ✅ *(Day 5)*
+- Footer section with links and social icons ✅ *(Day 6)*
 
 ---
 
@@ -31,6 +32,7 @@ Just open `index.html` in your browser — no setup required.
 | 3   | Explore Genre section + icons             | ✅ Done  |
 | 4   | Popular Anime Cards (with hover effects)  | ✅ Done  |
 | 5   | Popular Manga Cards (with hover effects)  | ✅ Done  |
+| 6   | Create and style footer                   | ✅ Done  |
 
 ---
 
