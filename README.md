@@ -16,6 +16,7 @@ A beginner-friendly website to watch anime and read manga.
 - Footer section with links and social icons ✅ *(Day 6)*
 - Responsive layout ✅ *(Day 7)*
 - Polish design and colors ✅*(Day 8)*
+- Add hover effects to cards ✅*(Day 9)*
 
 
 ---
