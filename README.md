@@ -38,6 +38,8 @@ Just open `index.html` in your browser — no setup required.
 | 6   | Create and style footer                   | ✅ Done  |
 | 7   | Responsive layout                         | ✅ Done  |
 | 8   | Polish design and colors                  | ✅ Done  |
+| 9   | Add hover effects to cards                | ✅ Done  |
+
 ---
 
 ## 🚧 Upcoming Plans
@@ -48,6 +50,7 @@ Just open `index.html` in your browser — no setup required.
 - Anime player integration
 - Fully responsive mobile layout
 - Add more features and polish the UI/UX
+- Add more anime and manga titles
 
 ---
 

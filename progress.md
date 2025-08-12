@@ -10,7 +10,7 @@
 | 6   | Create and style footer        | ✅ Done   | feat: added footer section             |
 | 7   | Make layout responsive         | ✅ Done   | feat: responsive design added          |
 | 8   | Polish design and colors       | ✅ Done   | style: improved colors and fonts       |
-| 9   | Add hover effects to cards     | ⬜ Pending | style: added hover effects to cards    |
+| 9   | Add hover effects to cards     | ✅ Done   | style: added hover effects to cards    |
 | 10  | Add genre tags on cards        | ⬜ Pending | feat: added genre badges               |
 | 11  | Add carousel/slider            | ⬜ Pending | feat: added featured carousel          |
 | 12  | Create search bar UI           | ⬜ Pending | feat: added search bar UI              |

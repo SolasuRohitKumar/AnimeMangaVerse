@@ -76,6 +76,8 @@ footer {
   color: #f2f2f2;
 }
 
+
+
 /* -------Explore--------- */
 .explore {
   padding: 40px 20px;
@@ -223,10 +225,32 @@ main, section {
   transition: transform 0.3s ease;
 }
 
-.genre-card:hover, .anime-card:hover, .manga-card:hover {
-  transform: scale(1.07);
-  box-shadow: 0 10px 25px rgba(117, 96, 69, 0.5);
+/* Smooth transition for cards and images */
+.anime-card,
+.manga-card,
+.genre-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
+
+.anime-card img,
+.manga-card img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover effect */
+.genre-card:hover,
+.anime-card:hover,
+.manga-card:hover {
+  transform: translateY(-8px); /* slight lift */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6); /* deep dark shadow */
+}
+
+.anime-card:hover img,
+.manga-card:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
+
 
 .anime-card img {
   width: 100%;
