@@ -12,7 +12,7 @@
 | 8   | Polish design and colors       | ✅ Done   | style: improved colors and fonts       |
 | 9   | Add hover effects to cards     | ✅ Done   | style: added hover effects to cards    |
 | 10  | Add genre tags on cards        | ✅ Done   | feat: added genre badges               |
-| 11  | Add carousel/slider            | ⬜ Pending | feat: added featured carousel          |
+| 11  | Add carousel/slider            | ✅ Done   | feat: added featured carousel          |
 | 12  | Create search bar UI           | ⬜ Pending | feat: added search bar UI              |
 | 13  | Add dark/light mode toggle UI  | ⬜ Pending | feat: added dark/light mode toggle UI |
 | 14  | Add scroll animations          | ⬜ Pending | feat: added scroll animations          |
