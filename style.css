@@ -15,7 +15,19 @@ header {
   background-color: #1f1f1f;
   padding: 1rem;
   text-align: center;
+
+  position: sticky;   /* 👈 makes it stick */
+  top: 0;             /* 👈 sticks to the top */
+  z-index: 1000;      /* 👈 keeps it above other elements */
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
+
+/* Shadow effect when scrolling */
+header.scrolled {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  background-color: #252525; /* slightly lighter for contrast */
+}
+
 
 nav a {
   margin: 0 15px;
@@ -420,4 +432,108 @@ main, section {
 
 .carousel-btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* .search-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-section input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #ff4d6d;
+  outline: none;
+  background-color: #1f1f1f;
+  color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-section input:focus {
+  border-color: #ff8097;
+  box-shadow: 0 0 10px rgba(255, 77, 109, 0.4);
+} */
+
+/* Smooth fade effect for hiding/showing cards */
+.anime-card, .manga-card {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.anime-card.hide, .manga-card.hide {
+  opacity: 0;
+  transform: scale(0.95);
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+
+
+.card.hide {
+  opacity: 0;
+  transform: scale(0.95);
+  pointer-events: none;
+}
+
+/* --- Header Layout with Search Bar --- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #f97316; /* orange title */
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  color: #f97316;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #ff7f50;
+}
+
+/* --- Search Bar --- */
+header .search-bar {
+  display: flex;
+  align-items: center;
+  background: #2c2c2c;
+  padding: 5px 12px;
+  border-radius: 30px;
+}
+
+header .search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 6px 10px;
+  width: 200px;
+  font-size: 1rem;
+}
+
+header .search-bar button {
+  background: none;
+  border: none;
+  color: #f97316;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 5px;
 }
