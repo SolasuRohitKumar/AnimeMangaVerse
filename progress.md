@@ -14,7 +14,7 @@
 | 10  | Add genre tags on cards        | ✅ Done   | feat: added genre badges               |
 | 11  | Add carousel/slider            | ✅ Done   | feat: added featured carousel          |
 | 12  | Create search bar UI           | ✅ Done   | feat: added search bar UI              |
-| 13  | Add dark/light mode toggle UI  | ⬜ Pending | feat: added dark/light mode toggle UI |
+| 13  | Add dark/light mode toggle UI  | ✅ Done   | feat: added dark/light mode toggle UI |
 | 14  | Add scroll animations          | ⬜ Pending | feat: added scroll animations          |
 | 15  | Clean code and folder structure| ⬜ Pending | chore: cleaned code and folder structure |
 | 16  | Make search bar functional     | ⬜ Pending | feat: search functionality added       |
