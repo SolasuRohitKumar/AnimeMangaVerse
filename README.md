@@ -20,7 +20,7 @@ A beginner-friendly website to watch anime and read manga.
 - Added genre badges to anime and manga cards ✅ *(Day 10)*
 - Added featured carousel ✅ *(Day 11)*
 - Added search bar UI ✅ *(Day 12)*
-- Added dark/light mode toggle UI ✅ *(Day 13)*
+- Added fancy dark/light mode toggle switch UI ✅ *(Day 13)*
 
 
 ---
