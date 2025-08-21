@@ -3,7 +3,7 @@
 | Day | Task                           | Status    | Commit Message                        |
 |-----|--------------------------------|-----------|-------------------------------------|
 | 1   | Project setup                  | ✅ Done   | init: project setup with landing page |
-| 2   | Add Top Picks (Featured Anime) section | ✅ Done   | feat: added top picks anime section  |
+| 2   | Add Top Picks (Featured Anime) section | ✅ Done | feat: added top picks anime section  |
 | 3   | Add Explore by Genre section   | ✅ Done   | feat: added genre explore section     |
 | 4   | Add Popular Anime cards section| ✅ Done   | feat: added popular anime cards       |
 | 5   | Add Featured Manga section     | ✅ Done   | feat: added featured manga section    |

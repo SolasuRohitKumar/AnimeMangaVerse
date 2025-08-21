@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AnimeMangaVerse</title>
@@ -9,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
+  <header data-aos="fade-down">
     <h1>AnimeMangaVerse</h1>
     <nav>
       <a href="#">Home</a>
@@ -17,228 +19,214 @@
       <a href="#">Manga</a>
     </nav>
     <!-- Search Bar -->
-   <div class="search-bar">
-     <input type="text" id="searchInput" placeholder="Search anime or manga...">
-     <button><i class="fa fa-search"></i></button>
-   </div>
-    <div class="theme-switch">
-  <input type="checkbox" id="switch" />
-  <label for="switch" class="toggle">
-    <span class="sun">☀️</span>
-    <span class="moon">🌙</span>
-    <span class="ball"></span>
-  </label>
-</div>
-
-
-
+    <div class="search-bar" data-aos="fade-left">
+      <input type="text" id="searchInput" placeholder="Search anime or manga...">
+      <button><i class="fa fa-search"></i></button>
+    </div>
+    <div class="theme-switch" data-aos="fade-left" data-aos-delay="200">
+      <input type="checkbox" id="switch" />
+      <label for="switch" class="toggle">
+        <span class="sun">☀️</span>
+        <span class="moon">🌙</span>
+        <span class="ball"></span>
+      </label>
+    </div>
   </header>
 
   <main>
-    <section class="intro">
+    <section class="intro" data-aos="fade-up">
       <h2>Welcome to AnimeMangaVerse</h2>
       <p>Watch anime and read manga — all in one place!</p>
     </section>
   </main>
-  <section id="Top-picks">
-   <h2>Top Picks</h2>
-   <div class="anime-grid">
-      <div class="anime-card">
+
+  <section id="Top-picks" data-aos="fade-up">
+    <h2>Top Picks</h2>
+    <div class="anime-grid">
+      <div class="anime-card" data-aos="zoom-in">
         <span class="genre-tag">Adventure</span>
         <img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" alt="Naruto">
         <p>Naruto</p>
-     </div>
-      <div class="anime-card">
-       <span class="genre-tag">Thriller</span> 
-       <img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" alt="Attack on Titan">
-       <p>Attack on Titan</p>
-     </div>
-      <div class="anime-card">
-         <span class="genre-tag">Action</span>
-        <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer" height= 233px>
+      </div>
+      <div class="anime-card" data-aos="zoom-in" data-aos-delay="200">
+        <span class="genre-tag">Thriller</span> 
+        <img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" alt="Attack on Titan">
+        <p>Attack on Titan</p>
+      </div>
+      <div class="anime-card" data-aos="zoom-in" data-aos-delay="400">
+        <span class="genre-tag">Action</span>
+        <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer" height=233px>
         <p>Demon Slayer</p>
-     </div>
-   </div>
- </section>
-   <!-- ------Explore------ -->
- <section class="explore">
-   <h2>Explore by Genre</h2>
-   <div class="genre-container">
-   <div class="genre-card"><i class="fas fa-bolt"></i> Action</div>
-   <div class="genre-card"><i class="fas fa-heart"></i> Romance</div>
-   <div class="genre-card"><i class="fas fa-laugh"></i> Comedy</div>
-   <div class="genre-card"><i class="fas fa-hat-wizard"></i> Fantasy</div>
-   <div class="genre-card"><i class="fas fa-ghost"></i> Horror</div>
-   <div class="genre-card"><i class="fas fa-robot"></i> Sci-Fi</div>
- </div>
- </section>
- <section class="anime-section">
-  <h2>Popular Anime</h2>
-  <div class="anime-cards">
-    <div class="anime-card">
-      <span class="genre-tag">Thriller</span>
-      <img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" alt="Attack on Titan">
-      <h3>Attack on Titan</h3>
-    </div>
-    <div class="anime-card">
-      <span class="genre-tag">Action</span>
-      <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer">
-      <h3>Demon Slayer</h3>
-    </div>
-    <div class="anime-card">
-      <span class="genre-tag">Thriller</span>
-      <img src="https://cdn.myanimelist.net/images/anime/9/9453.jpg" alt="Death Note">
-      <h3>Death Note</h3>
-    </div>
-  </div>
-</section>
-<section class="featured-manga">
-  <h2>Featured Manga</h2>
-  <div class="manga-cards">
-    <div class="manga-card">
-      <span class="genre-tag">Adventure</span>
-      <img src="https://cdn.myanimelist.net/images/manga/2/253146.jpg" alt="One Piece">
-      <h3>One Piece</h3>
-    </div>
-    <div class="manga-card">
-      <span class="genre-tag">Adventure</span>
-      <img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" alt="Naruto">
-      <h3>Naruto</h3>
-    </div>
-    <div class="manga-card">
-      <span class="genre-tag">Thriller</span>
-      <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg" alt="Death Note">
-      <h3>Death Note</h3>
-    </div>
-  </div>
-</section>
-<section id="featured-carousel">
-  <h2>Featured Carousel</h2>
-  <div class="carousel-container">
-    <div class="carousel-track">
-      <div class="carousel-item">
-        <img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" alt="Attack on Titan" height= 450px>
-      </div>
-      <div class="carousel-item">
-        <img src="https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_kaisen.jpg" alt="Jujutsu Kaisen" height= 450px>
-      </div>
-      <div class="carousel-item">
-        <img src="https://cdn.myanimelist.net/images/manga/2/253146.jpg" alt="One Piece" height= 450px>
-      </div>
-      <div class="carousel-item">
-        <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg" alt="Death Note" height= 450px>
-      </div>
-       <div class="carousel-item">
-        <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer" height= 450px>
-      </div>
-      <div class="carousel-item">
-        <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Boku_no_Hero_Academia_Volume_1.png" alt="My Hero Academia" height= 450px>
-      </div>
-      <div class="carousel-item">
-        <img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" alt="Naruto" height= 450px>
-      </div>
-      <div class="carousel-item">
-        <img src="https://mfiles.alphacoders.com/954/thumb-350-954381.png" alt="Solo Leveling" height= 450px width= 270px>
       </div>
     </div>
-    <button class="carousel-btn prev">&#10094;</button>
-    <button class="carousel-btn next">&#10095;</button>
-  </div>
-</section>
+  </section>
 
-
-
-
-
-<footer class="site-footer">
-  <div class="footer-container">
-    <div class="footer-about">
-      <h3>AnimeMangaVerse</h3>
-      <p>Watch anime and read manga — your ultimate destination for entertainment.</p>
+  <!-- ------Explore------ -->
+  <section class="explore" data-aos="fade-up">
+    <h2>Explore by Genre</h2>
+    <div class="genre-container">
+      <div class="genre-card" data-aos="flip-left"><i class="fas fa-bolt"></i> Action</div>
+      <div class="genre-card" data-aos="flip-left" data-aos-delay="200"><i class="fas fa-heart"></i> Romance</div>
+      <div class="genre-card" data-aos="flip-left" data-aos-delay="400"><i class="fas fa-laugh"></i> Comedy</div>
+      <div class="genre-card" data-aos="flip-left" data-aos-delay="600"><i class="fas fa-hat-wizard"></i> Fantasy</div>
+      <div class="genre-card" data-aos="flip-left" data-aos-delay="800"><i class="fas fa-ghost"></i> Horror</div>
+      <div class="genre-card" data-aos="flip-left" data-aos-delay="1000"><i class="fas fa-robot"></i> Sci-Fi</div>
     </div>
+  </section>
 
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Anime</a></li>
-        <li><a href="#">Manga</a></li>
-        <li><a href="#">Genres</a></li>
-      </ul>
+  <section class="anime-section" data-aos="fade-right">
+    <h2>Popular Anime</h2>
+    <div class="anime-cards">
+      <div class="anime-card" data-aos="zoom-in">
+        <span class="genre-tag">Thriller</span>
+        <img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" alt="Attack on Titan">
+        <h3>Attack on Titan</h3>
+      </div>
+      <div class="anime-card" data-aos="zoom-in" data-aos-delay="200">
+        <span class="genre-tag">Action</span>
+        <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer">
+        <h3>Demon Slayer</h3>
+      </div>
+      <div class="anime-card" data-aos="zoom-in" data-aos-delay="400">
+        <span class="genre-tag">Thriller</span>
+        <img src="https://cdn.myanimelist.net/images/anime/9/9453.jpg" alt="Death Note">
+        <h3>Death Note</h3>
+      </div>
     </div>
+  </section>
 
-    <div class="footer-social">
-      <h4>Follow Us</h4>
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
+  <section class="featured-manga" data-aos="fade-left">
+    <h2>Featured Manga</h2>
+    <div class="manga-cards">
+      <div class="manga-card" data-aos="fade-up">
+        <span class="genre-tag">Adventure</span>
+        <img src="https://cdn.myanimelist.net/images/manga/2/253146.jpg" alt="One Piece">
+        <h3>One Piece</h3>
+      </div>
+      <div class="manga-card" data-aos="fade-up" data-aos-delay="200">
+        <span class="genre-tag">Adventure</span>
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" alt="Naruto">
+        <h3>Naruto</h3>
+      </div>
+      <div class="manga-card" data-aos="fade-up" data-aos-delay="400">
+        <span class="genre-tag">Thriller</span>
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg" alt="Death Note">
+        <h3>Death Note</h3>
+      </div>
     </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2025 AnimeMangaVerse | All Rights Reserved</p>
-  </div>
-</footer>
-<script>
-  const track = document.querySelector('.carousel-track');
-  const slides = Array.from(track.children);
-  const prevButton = document.querySelector('.carousel-btn.prev');
-  const nextButton = document.querySelector('.carousel-btn.next');
+  </section>
 
-  let currentIndex = 0;
+  <section id="featured-carousel">
+    <h2>Featured Carousel</h2>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="carousel-item"><img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" alt="Attack on Titan" height=450px></div>
+        <div class="carousel-item"><img src="https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_kaisen.jpg" alt="Jujutsu Kaisen" height=450px></div>
+        <div class="carousel-item"><img src="https://cdn.myanimelist.net/images/manga/2/253146.jpg" alt="One Piece" height=450px></div>
+        <div class="carousel-item"><img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg" alt="Death Note" height=450px></div>
+        <div class="carousel-item"><img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer" height=450px></div>
+        <div class="carousel-item"><img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Boku_no_Hero_Academia_Volume_1.png" alt="My Hero Academia" height=450px></div>
+        <div class="carousel-item"><img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" alt="Naruto" height=450px></div>
+        <div class="carousel-item"><img src="https://mfiles.alphacoders.com/954/thumb-350-954381.png" alt="Solo Leveling" height=450px width=270px></div>
+      </div>
+      <button class="carousel-btn prev">&#10094;</button>
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </section>
 
-  function updateCarousel() {
-    const slideWidth = slides[0].getBoundingClientRect().width;
-    track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-  }
+  <footer class="site-footer" data-aos="fade-up">
+    <div class="footer-container">
+      <div class="footer-about" data-aos="fade-right">
+        <h3>AnimeMangaVerse</h3>
+        <p>Watch anime and read manga — your ultimate destination for entertainment.</p>
+      </div>
 
-  nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    updateCarousel();
-  });
+      <div class="footer-links" data-aos="fade-up">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Anime</a></li>
+          <li><a href="#">Manga</a></li>
+          <li><a href="#">Genres</a></li>
+        </ul>
+      </div>
 
-  prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    updateCarousel();
-  });
+      <div class="footer-social" data-aos="fade-left">
+        <h4>Follow Us</h4>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 AnimeMangaVerse | All Rights Reserved</p>
+    </div>
+  </footer>
 
-  // Auto-slide every 6 seconds
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % slides.length; 
-    updateCarousel();
-  }, 6000);
+  <!-- existing JS code (carousel, search, scroll) -->
+  <script>
+    const track = document.querySelector('.carousel-track');
+    const slides = Array.from(track.children);
+    const prevButton = document.querySelector('.carousel-btn.prev');
+    const nextButton = document.querySelector('.carousel-btn.next');
 
-  window.addEventListener('resize', updateCarousel);
+    let currentIndex = 0;
 
-const searchInput = document.getElementById('searchInput');
-
-searchInput.addEventListener('keyup', function () {
-  let filter = searchInput.value.toLowerCase();
-  let cards = document.querySelectorAll('.anime-card, .manga-card');
-
-  cards.forEach(card => {
-    let titleElement = card.querySelector('h3, p');
-    let title = titleElement ? titleElement.textContent.toLowerCase() : "";
-    if (title.includes(filter)) {
-      card.classList.remove('hide');
-    } else {
-      card.classList.add('hide');
+    function updateCarousel() {
+      const slideWidth = slides[0].getBoundingClientRect().width;
+      track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
     }
-  });
-});
 
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateCarousel();
+    });
 
-// Add shadow to header on scroll
-window.addEventListener('scroll', () => {
-  const header = document.querySelector('header');
-  if (window.scrollY > 10) {
-    header.classList.add('scrolled');
-  } else {
-    header.classList.remove('scrolled');
-  }
-});
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateCarousel();
+    });
 
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % slides.length; 
+      updateCarousel();
+    }, 6000);
 
-</script>
+    window.addEventListener('resize', updateCarousel);
+
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('keyup', function () {
+      let filter = searchInput.value.toLowerCase();
+      let cards = document.querySelectorAll('.anime-card, .manga-card');
+      cards.forEach(card => {
+        let titleElement = card.querySelector('h3, p');
+        let title = titleElement ? titleElement.textContent.toLowerCase() : "";
+        if (title.includes(filter)) {
+          card.classList.remove('hide');
+        } else {
+          card.classList.add('hide');
+        }
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('header');
+      if (window.scrollY > 10) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
 </body>
 </html>
