@@ -21,6 +21,8 @@ A beginner-friendly website to watch anime and read manga.
 - Added featured carousel ✅ *(Day 11)*
 - Added search bar UI ✅ *(Day 12)*
 - Added fancy dark/light mode toggle switch UI ✅ *(Day 13)*
+- Added scroll animations with AOS library ✅ *(Day 14)*
+
 
 
 ---
@@ -48,6 +50,7 @@ Just open `index.html` in your browser — no setup required.
 | 11  | Add featured carousel                     | ✅ Done  |
 | 12  | Add search bar UI                         | ✅ Done  | 
 | 13  | Add dark/light mode toggle UI             | ✅ Done  |
+| 14  |Added scroll animations with AOS library   | ✅Done   |
 
 ---
 
@@ -60,6 +63,7 @@ Just open `index.html` in your browser — no setup required.
 - Fully responsive mobile layout
 - Add more features and polish the UI/UX
 - Add more anime and manga titles
+
 
 
 
