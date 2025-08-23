@@ -17,7 +17,7 @@
 | 13  | Add dark/light mode toggle UI  | ✅ Done   | feat: added dark/light mode toggle UI |
 | 14  | Add scroll animations          | ✅ Done   | feat: added scroll animations          |
 | 15  | Clean code and folder structure| ✅ Done   | chore: cleaned code and folder structure |
-| 16  | Make search bar functional     | ⬜ Pending | feat: search functionality added       |
+| 16  | Make search bar functional     | ⬜ Processing | feat: search functionality added       |
 | 17  | Implement dark mode toggle JS  | ⬜ Pending | feat: implemented dark mode toggle JS |
 | 18  | Add scroll-to-top button       | ⬜ Pending | feat: added scroll-to-top button       |
 | 19  | Add loading animation          | ⬜ Pending | feat: added loading spinner            |
