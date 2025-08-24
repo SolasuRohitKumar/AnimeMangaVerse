@@ -23,6 +23,8 @@ A beginner-friendly website to watch anime and read manga.
 - Added fancy dark/light mode toggle switch UI ✅ *(Day 13)*
 - Added scroll animations with AOS library ✅ *(Day 14)*
 - Clean code and folder structure ✅ *(Day 15)*
+- Make search bar functional 🔃 *(Day 16)*
+- Implement dark mode toggle JS ✅ *(Day 17)*
 
 
 
@@ -54,6 +56,8 @@ Just open `index.html` in your browser — no setup required.
 | 13  | Add dark/light mode toggle UI             | ✅ Done  |
 | 14  |Added scroll animations with AOS library   | ✅Done   |
 | 15  | Clean code and folder structure           | ✅ Done  |
+| 16  | Make search bar functional                | inproces🔃 |
+| 17  | Implement dark mode toggle JS             | ✅ Done  |
 
 
 ---
