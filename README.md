@@ -4,7 +4,7 @@ A beginner-friendly website to watch anime and read manga.
 
 ---
 
-## 🌟 Features
+## 🌟  Features
 
 - Landing page with navigation
 - Dark theme design
